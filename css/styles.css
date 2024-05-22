@@ -41,7 +41,7 @@ ul{list-style: none;}
         font-weight: 500;
         font-size: 16px;
         line-height: 24px;
-        letter-spacing: 2%;
+        letter-spacing:0.02em;
 }
 
 .studio-pointer:hover,
@@ -55,7 +55,7 @@ ul{list-style: none;}
         font-weight: 500;
         font-size: 16px;
         line-height: 24px;
-        letter-spacing: 2%;
+        letter-spacing:0.02em;
 }
 
 .portfolio-pointer:hover,
@@ -69,7 +69,7 @@ ul{list-style: none;}
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
-    letter-spacing: 2%;
+    letter-spacing: 0.02em;
 }
 
 .contact-pointer:hover,
@@ -155,9 +155,12 @@ color: #2e2f42;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color:#434445;
+    color:#434455;
 }
 .benefit-section{
+    background-color: #F4F4FD;
+}
+.team-section{
     background-color: #F4F4FD;
 }
 .our-team{
@@ -169,13 +172,8 @@ color: #2e2f42;
     color: #2e2f42;
 }
 .team-item{
-    width: hug(264px);
-    height:hug(380px);
-    margin-top:1248px;
-    margin-left: 156px;
-    border-radius: 0px, 0px, 4px, 4px;
-    padding: 0px, 0px, 32px, 0px;
-    gap: 32px;}
+    background-color: #FFFFFF
+   }
 
     .team{
     font-weight: 500;
