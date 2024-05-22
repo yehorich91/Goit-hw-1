@@ -15,9 +15,6 @@ body{ font-family:"Roboto",sans-serif;
 ul{list-style: none;}
 .menu
 {
-    width:1440px;
-    height: 72px;
-    border-bottom: 1px;
     color: #e7e9fc;
 }
 .webstudio{
@@ -35,35 +32,8 @@ ul{list-style: none;}
    
 }
 
-.studio-pointer {
-    color: #2e2f42;
-        font-family: "Roboto";
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 24px;
-        letter-spacing:0.02em;
-}
 
-.studio-pointer:hover,
-.studio-pointer:focus {
-    color: #404bbf;
-}
-
-.portfolio-pointer {
-    color: #2e2f42;
-        font-family: "Roboto";
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 24px;
-        letter-spacing:0.02em;
-}
-
-.portfolio-pointer:hover,
-.portfolio-pointer:focus {
-    color: #404bbf;
-}
-
-.contact-pointer {
+.nav-pointer {
     color:#2e2f42;
     font-family:"Roboto";
     font-weight: 500;
@@ -72,9 +42,10 @@ ul{list-style: none;}
     letter-spacing: 0.02em;
 }
 
-.contact-pointer:hover,
-.contact-pointer:focus {
+.nav-pointer:hover,
+.nav-pointer:focus {
     color: #404bbf;}
+
 .header-adress{font-style: normal;
 }
 .mail{
@@ -99,9 +70,6 @@ ul{list-style: none;}
 }
 
 .hero{
-    width: 1440px;
-        height: 600px;
-        top: 72px;
         background: #2E2F42;
 }
 .desigions{
@@ -188,10 +156,7 @@ color: #2e2f42;
     letter-spacing: 0.02em;
     color: #434455;
 }
-.frame{
-   width: 264px;
-   height: 260px;
-}
+
 .portfolio{
     font-size: 36px;
     line-height: 1.11;
@@ -221,4 +186,16 @@ color: #2e2f42;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #F4F4FD;
+}
+.webstudio-floor{
+    font-family: "Raleway",sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+}
+.studio-floor{
+    color: #f4f4fd;
 }
