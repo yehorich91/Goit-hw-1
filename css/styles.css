@@ -11,8 +11,25 @@ body{ font-family:"Roboto",sans-serif;
     color:#434455
 }
  
-
-ul{list-style: none;}
+h1, h2, h3, h4, h5, h6, p {
+	margin:0;
+}
+ul, ol {
+    margin:0;
+    padding-left: 0;
+    
+} 
+img {
+    display: block;
+}
+.container { 
+    max-width: 1158px;
+    padding-left:  
+    padding-right:  
+    margin-left:  
+    margin-right:  
+    }
+    
 .menu
 {
     color: #e7e9fc;
