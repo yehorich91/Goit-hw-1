@@ -29,10 +29,9 @@ img {
 .head-container { 
   display:flex;
     }
-    .container { 
-        max-width: 1158px;
-        padding-left:15px;
-        padding-right:15px;
+.container { 
+        width: 1158px;
+        padding:0 15px;  
         margin:0 auto;  
         }  
 .navigation {
@@ -58,6 +57,7 @@ img {
 }
 .menu{
     display: flex;
+    gap:40px;
 }
 
 .nav-pointer {
@@ -68,7 +68,7 @@ img {
     line-height: 24px;
     letter-spacing: 0.02em;
     gap: 40px;
-    margin-right: 40px;
+    padding: 24px 0;
 }
 
 .nav-pointer:hover,
@@ -123,7 +123,7 @@ color: #ffffff;
 cursor: pointer;
 display: block;
 min-width: 169px;
-height: 59px;
+height: 56px;
 border: none;
 border-radius: 4px;
 }
@@ -138,14 +138,13 @@ border-radius: 4px;
     letter-spacing: 4%;
     color: #ffffff;
 }
-.our-benefits{
+.visually-hidden{
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2e2f42;
-    visibility: hidden;
     
 }
 .benefit-list{
@@ -175,7 +174,7 @@ margin-bottom: 8px;
 }
 .benefit-section{
     background-color: #F4F4FD;
-    padding:120px o
+    padding:120px 0;
 }
 .team-section{
     background-color: #F4F4FD;
@@ -194,9 +193,9 @@ margin-bottom: 8px;
     color: #2e2f42;
     margin-bottom: 72px;
 }
-.team-item{
+.team-item {
     background-color: #FFFFFF;
-    calc((100% - 72px) / 4);
+    width:calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px; 
    }
 .worker-name{
