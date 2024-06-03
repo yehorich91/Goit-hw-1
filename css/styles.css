@@ -27,17 +27,12 @@ img {
     border-bottom: 1px solid #e7e9fc
 }
 .container{
-    max-width:1158px;
-    padding-right: 15px;
-    padding-left: 15px;
-    margin:0 auto;
+    display:flex;
+    width: 1158px;
+    padding:0 15px;  
+    margin:0 auto; 
 }
-.head-container { 
-  display:flex;
-  width: 1158px;
-  padding:0 15px;  
-  margin:0 auto;  
-    }
+
  
 .navigation {
     display: flex;
