@@ -33,7 +33,9 @@ img {
     margin:0 auto; 
 }
 
- 
+ .header-container{
+    display:flex;
+ }
 .navigation {
     display: flex;
     color: #e7e9fc;
